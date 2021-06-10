@@ -17,3 +17,6 @@ class Solution(object):
             res = (nums[len(nums)//2] + nums[(len(nums)//2)-1]) / 2.0
         
         return res
+
+# import statistics
+# res = statistics.median(nums)
